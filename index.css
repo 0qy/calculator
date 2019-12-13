@@ -1,0 +1,46 @@
+* {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+button {
+    width: 3rem;
+    height: 1.8rem;
+    margin: 0.5rem;
+    border-style: outset;
+    border-radius: 15%;
+    background-color: palegoldenrod;
+    outline: none;
+    text-align: center;
+    box-shadow: 0 5px #999;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.calculator {
+    background-color:silver;
+    width: 280px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.row {
+
+}
+
+button.tall {
+    height:;
+}
+
+div.input#answer {
+    position: relative;
+    margin: 0 auto;
+}
