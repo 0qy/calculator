@@ -3,11 +3,12 @@
 <head>
     <title>Calculator</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src='calculator.js'></script>
 </head>
 <body>
     <div class='calculator'>
         <p>CALCULATOR</p>
-        <input type="text" disabled="disabled" id="answer"/>
+        <input id="display" value="0" type="text">
         <!--1st ROW-->
         <div class="row" > 
             <button class="ctrl">AC</button>
@@ -17,27 +18,27 @@
         </div>
         <!--2nd ROW -->
         <div class="row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button class="operator">x</button>
         </div>
         <!--3rd ROW-->
         <div class="row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button class="operator">-</button>
         </div>
         <div class="row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="tall">+</button>
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button class="tall" class="operator">+</button>
         </div>
         <div class="row">
-            <button>0</button>
-            <button>.</button>
+            <button value="0">0</button>
+            <button value=".">.</button>
             <button class='ctrl'>=</button>
         </div>
     </div>
