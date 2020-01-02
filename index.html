@@ -3,19 +3,20 @@
 <head>
     <title>Calculator</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <div class='calculator'>
-        <p>CALCULATOR</p>
+        <h2 class='title'>CALCULATOR</h2>
 
         <input id="screen" value="0" type="text" disabled/>
 
         <!--1st ROW-->
         <div class="row" > 
-            <button value="AC">AC</button>
+            <button value="AC" class='major'>AC</button>
             <button value="CE">CE</button>
-            <button value="/">/</button>
+            <button value="/" class='divide'>/</button>
         </div>
         <!--2nd ROW -->
         <div class="row">
@@ -40,7 +41,7 @@
         <div class="row">
             <button value="0">0</button>
             <button value=".">.</button>
-            <button value="equal">=</button>
+            <button value="equal" class='major'>=</button>
         </div>
     </div>
     <script src='calculator.js'></script>

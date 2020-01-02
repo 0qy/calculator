@@ -1,6 +1,7 @@
 * {
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+
 }
 
 
@@ -20,6 +21,28 @@ button:hover{
     background-color: orange;
 }
 
+h2 {
+    
+}
+
+h2.title{
+
+    text-align: center;
+    padding-top: 1rem;
+}
+
+div input#screen{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+div button.major{
+    width: 7.25rem;
+}
+
+
 button:active{
     box-shadow: 0 3px #666;
     transform: translateY(4px);
@@ -30,6 +53,11 @@ button:active{
     width: 280px;
     height: 310px;
     margin: 0 auto;
+    margin-top: 7rem;
+    border-radius: 5% 5% 10% 10%;
+    border-style: ridge;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
 }
 
 .row {
