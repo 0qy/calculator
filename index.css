@@ -1,0 +1,74 @@
+* {
+    font-size: 15px;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+
+button {
+    width: 3rem;
+    height: 1.8rem;
+    margin: 0.5rem;
+    border-style: outset;
+    border-radius: 15%;
+    background-color: palegoldenrod;
+    outline: none;
+    text-align: center;
+    box-shadow: 0 5px #999;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+h2 {
+    
+}
+
+h2.title{
+
+    text-align: center;
+    padding-top: 1rem;
+}
+
+div input#screen{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+div button.major{
+    width: 7.25rem;
+}
+
+
+button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.calculator {
+    background-color:silver;
+    width: 280px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 7rem;
+    border-radius: 5% 5% 10% 10%;
+    border-style: ridge;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+.row {
+
+}
+
+button.tall {
+    height:;
+}
+
+div.input#answer {
+    position: relative;
+    margin: 0 auto;
+}
